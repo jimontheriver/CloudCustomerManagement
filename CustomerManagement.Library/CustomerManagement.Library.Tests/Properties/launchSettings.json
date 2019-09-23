@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CustomerManagement.Library.Tests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "..\\\\..\\\\firebasekey.json"
+      }
+    }
+  }
+}
