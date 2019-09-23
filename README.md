@@ -9,6 +9,7 @@ To run this, you will need the Datastore Emulator or need to create credentials 
 
 ## Major TODOs
 
+1. Testing Firebase
 1. Logging
 1. Identity Management (w/GCP)
 1. Configuration Management
