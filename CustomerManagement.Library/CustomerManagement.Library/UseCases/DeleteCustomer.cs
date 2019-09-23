@@ -15,6 +15,7 @@ namespace CustomerManagement.Library.UseCases
 
         public async Task<SaveCustomerResponse> DeleteAsync(long id)
         {
+            // TODO Need better audit fields.
             var result = await repository.DeleteAsync(id);
             return new SaveCustomerResponse{ Id = result };
         }
